@@ -2,30 +2,32 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  Using inquirer you can create professional readme files, included in this repo you can find the generated readme file called GENERATED-README.md
+  Create professional readme files
 
   ### Table of Contents
-- [Professional Readme Creator](#professional-readme-creator)
   - [Description](#description)
-    - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-  - [Walkthrough Video](#walkthrough-video)
+  - [Questions](#questions)
 
-## Installation
+  ## Installation
   run index.js in node
 
-## Usage
+  ## Usage
   Can be used to create professional read files
 
-## Contribution
-send sugestions to my email
+  ## Contribution
+  send sugestions to my email
 
-## Tests
+  ## Tests
   After creating readme file open the file
 
-## Walkthrough Video
+  ## Questions
+  - See my work at GitHub: [github.com/arlindo2017](#https://github.com/arlindo2017/)
+  - If you have any questions you can email me at [perensen@gmail.com](mailto:perensen@gmail.com)
 
-https://www.youtube.com/watch?v=_qyH1rkqYfM
+
+  ### This readme file was automatically generated using inquirer
+  
