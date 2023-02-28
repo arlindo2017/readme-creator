@@ -5,29 +5,13 @@
   Create professional readme files
 
   ### Table of Contents
+- [Professional Readme Creator](#professional-readme-creator)
   - [Description](#description)
+    - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
   - [Questions](#questions)
-
-  ## Installation
-  run index.js in node
-
-  ## Usage
-  Can be used to create professional read files
-
-  ## Contribution
-  send sugestions to my email
-
-  ## Tests
-  After creating readme file open the file
-
-  ## Questions
-  - See my work at GitHub: [github.com/arlindo2017](#https://github.com/arlindo2017/)
-  - If you have any questions you can email me at [perensen@gmail.com](mailto:perensen@gmail.com)
-
-
-  ### This readme file was automatically generated using inquirer
-  
+    - [This readme file was automatically generated using inquirer](#this-readme-file-was-automatically-generated-using-inquirer)
+   

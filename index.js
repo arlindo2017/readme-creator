@@ -97,9 +97,10 @@ inquirer
   ])
   
   .then((data) => {
-    fs.writeFile('GENERATED-README.md',  writeReadme(data), (error) => {
-        error ? console.log(error): console.log('Success, your GENERATED-README.md file has been created!')
-     })
+    console.log(data)
+    // fs.writeFile('GENERATED-README.md',  writeReadme(data), (error) => {
+    //     error ? console.log(error): console.log('Success, your GENERATED-README.md file has been created!')
+    //  })
 });
 
 
