@@ -5,9 +5,6 @@
   Using inquirer you can create professional readme files, included in this repo you can find the generated readme file called GENERATED-README.md
 
   ### Table of Contents
-- [Professional Readme Creator](#professional-readme-creator)
-  - [Description](#description)
-    - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
