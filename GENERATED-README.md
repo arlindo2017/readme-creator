@@ -24,7 +24,7 @@ send sugestions to my email
   After creating readme file open the file
   
 ## Questions
-  - See my work at GitHub: [github.com/${data.github}](#https://github.com/arlindo2017/)
-  - If you have any questions you can email me at [${data.email}](mailto:perensen@gmail.com)
+  - See my work at GitHub: [github.com/arlindo2017](#https://github.com/arlindo2017/)
+  - If you have any questions you can email me at [perensen@gmail.com](mailto:perensen@gmail.com)
 
 ### This readme file was automatically generated using inquirer
