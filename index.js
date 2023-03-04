@@ -1,8 +1,11 @@
+// Import needed libraries
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Function that creates data needed to generate readme file
 function writeReadme(data) {
   let projectLicense = data.license
+  // Based on user prompt  selection use one of these 3 license badges
   if (projectLicense == 'Apache License 2.0') {
     projectLicense = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   } else if (projectLicense == 'MIT License') {
@@ -11,6 +14,8 @@ function writeReadme(data) {
     projectLicense = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
   }
 
+
+  // Create Template Literal that contains the data to write to readme file.
   return `# ${data.projectitle}
   ${projectLicense}
   
@@ -46,6 +51,7 @@ function writeReadme(data) {
   `; 
 }
 
+// Creates list of questions prompted to user to generate readme file unsing inquirer library
 inquirer
   .prompt([
     {
@@ -78,6 +84,7 @@ inquirer
         name: 'tests',
         message: 'Enter testing instructions',
      },
+    // This will show as a multiple-option checkbox for the 3 licenses listed in the array
     {
       type: 'checkbox',
       name: 'license',
@@ -95,9 +102,10 @@ inquirer
         message: 'Your email address',
     },
   ])
-  
+
+  // Create a readme file in the examples folder using the fs library
   .then((data) => {
-    fs.writeFile('GENERATED-README.md',  writeReadme(data), (error) => {
+    fs.writeFile('./examples/GENERATED-README.md',  writeReadme(data), (error) => {
         error ? console.log(error): console.log('Success, your GENERATED-README.md file has been created!')
      })
 });
